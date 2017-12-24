@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+  header#navbar.scrolled .navbar {
+    min-height: 0px; 
+  }
+  header#navbar .navbar-toggle {
+    margin-top: 15px;
+  }
+  header#navbar.scrolled .navbar-toggle {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .navbar-brand {
+    margin-top: 10px;
+  }
+  header#navbar .logo img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  header#navbar .dropdown-menu > li > a:hover, 
+  header#navbar .dropdown-menu > li > a:focus,
+  header#navbar .navbar-nav > li > a:focus, 
+  header#navbar .navbar-nav > li > a:hover  {
+    border-bottom: none;
+  }
+  header#navbar .dropdown-menu>li>a:hover, 
+  header#navbar .dropdown-menu>li>a:focus {
+    background-image: none;
+  }
+  .header-brown-content .main-title-second {
+    font-size: 4em;
+  }
+  .header-brown-content  .main-title-first {
+    line-height: 1em;
+    font-size: 2em;
+  }
+  .header-brown-content .main-block-inner .main-desc {
+    padding: 0px 10%;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  header#navbar.scrolled .navbar-nav > li > a {
+    padding: 5px 8px;
+    padding-top: 19px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1169px) {
+  .footer-wrap .footer-subscribe .form-control-static {
+    font-size: 1em;
+  }
+  .footer-wrap .footer-subscribe .subscribe-form-submit {
+    float: right;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-wrap .footer-subscribe {
+    padding-top: 12px;
+    padding-bottom: 32px;
+  }
+  .footer-wrap .footer-subscribe .form-control-static {
+    font-size: 1.2em;
+  }
+  .footer-wrap .footer-subscribe #contact_email {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    height: 40px;
+  }
+  .footer-wrap .footer-copyright .footer-copyright-content {
+    margin-bottom: 10px;
+  }
+  .footer-wrap .footer-social .follow-link-wrapper i{
+    height: 47px;
+  }
+  .footer-wrap .footer-subscribe .subscribe-form-submit {
+    width: 90%;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 0px;
+  }
+  .footer-wrap .footer-subscribe .subscribe-form-submit {
+    float: center;
+  }
+  .footer-wrap .footer-copyright,
+  .footer-wrap .footer-follow-wrap {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) { 
+  .content-light-orange .button-list {
+    margin-top: 20px;
+  }
+}
+
+
+/***************************************************************/
+/****************   Content dark pink starts *******************/
+/***************************************************************/
+
+@media (min-width: 768px) and (max-width: 992px) {  
+  .content-dark-pink .content-desc {
+    line-height: 1.8em;
+    font-size: 14px;
+  }
+  .content-dark-pink li {
+    margin-bottom: 5px;
+  }
+}
+/***************************************************************/
+/****************   Content dark pink end    *******************/
+/***************************************************************/
+

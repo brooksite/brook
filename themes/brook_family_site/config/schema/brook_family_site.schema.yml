@@ -1,0 +1,6 @@
+# Schema for the configuration files of the Brook Family Site theme.
+
+brook_family_site.settings:
+  type: theme_settings
+  label: Brook Family Site settings
+

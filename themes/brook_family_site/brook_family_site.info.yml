@@ -1,0 +1,34 @@
+name: Brook Family Site
+type: theme
+base theme: mbase
+description: 'Sub-theme for <a href = "https://www.drupal.org/project/mbase" target = "_blank"> mbase</a> template. Generated using <a href = "http://cmsbots.com" target = "_blank">cmsbots.com</a>'
+package: CMSbots
+libraries:
+  - brook_family_site/global-styling
+
+# version: VERSION
+# core: 8.x
+
+regions:
+  home_welcome: Homepage Welcome
+  content_light_orange: Homepage Content Light Orange
+  content_dark_pink: Homepage Content Dark Pink
+  footer_signup: Footer Signup
+  footer_copyright: Footer Copyright
+  footer_social: Footer Social
+  branding: Branding
+  navigation: Navigation
+  header: Header
+  highlighted: Highlignted
+  help: Help
+  content: Main Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+version: 8.x-3.x-dev
+core: 8.x
+project: brook_family_site
+datestamp: 1434064033
+
