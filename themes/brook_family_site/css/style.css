@@ -1,3 +1,8 @@
+.text-center {
+  text-align: center;
+  top: -320px;
+  padding-bottom: 20px;
+}
 body.path-frontpage.navbar-is-fixed-top {
   padding-top: 0px !important;
 }
@@ -12,7 +17,7 @@ body.navbar-is-fixed-top {
   margin-bottom: 10px;
 }
 .navbar .logo img{
-  height: 40px;
+  height: 100px;
   width: auto;
 }
 body.path-frontpage header#navbar.navbar-static-top  {
@@ -65,14 +70,14 @@ header#navbar.scrolled  .navbar-nav > li > a {
 
 .header-brown-content {
   background-image: url(
-  "images/css-header-header-brown-main-background.jpg"); 
+  "images/brook_fam_reunion_2016"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 580px;
+  height: 980px;
 }  
 .header-brown-content  .main-block {
   display: flex;
