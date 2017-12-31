@@ -314,7 +314,7 @@ $settings['trusted_host_patterns'] = array(
   '^www\.brook\.com$',
   'localhost',
   'brooksite',
-  '*roaringenterprises.com$',
+  'roaringenterprises.com',
 
 );
 
